@@ -48,8 +48,8 @@ public class Jugador {
 	private boolean turno() throws IOException {
 		int victoria = 0;
 		Scanner sc = new Scanner(System.in);
-			sis.read()
-			if () {
+			victoria = sis.read();
+			if (victoria != 0) {
 				System.out.println("Turno del jugador " + idJugador);
 				// A B C D E F G H I J K
 				System.out.println("Introduzca una posicion en X [A - k]: ");
